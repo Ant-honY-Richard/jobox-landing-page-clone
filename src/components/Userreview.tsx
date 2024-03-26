@@ -2,7 +2,7 @@ import React from 'react';
 
 const UserReview: React.FC<{ testimonial: string; author: string }> = ({ testimonial, author }) => {
   return (
-    <div className="max-w-md mx-auto bg-white rounded-xl shadow-lg md:max-w-2xl p-4 mb-8 transition-transform duration-300 ease-in-out transform hover:scale-105">
+    <div className="mt-20 max-w-md mx-auto bg-white rounded-xl shadow-lg md:max-w-2xl p-4 mb-8 transition-transform duration-300 ease-in-out transform hover:scale-105">
       <blockquote className="text-lg font-medium text-gray-800 italic mb-4">{testimonial}</blockquote>
       <p className="text-sm font-semibold text-gray-600 flex items-center justify-between">~ {author} <img src="https://www.vectorlogo.zone/logos/google/google-tile.svg" alt="Google Icon" className="w-4 h-4" /></p>
     </div>
